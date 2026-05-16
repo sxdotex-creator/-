@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "盒号": "BOX_NO",
+    "文号": "DOC_NO",
+    "责任者": "OWNER",
+    "文件题名": "TITLE",
+    "日期": "DATE"
+  },
+  "output_name": "{BOX_NO}_{DOC_NO}.docx",
+  "placeholder_style": {
+    "prefix": "{{",
+    "suffix": "}}"
+  }
+}
