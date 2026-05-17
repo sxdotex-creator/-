@@ -1,0 +1,23 @@
+[project]
+name = "excel2word"
+version = "0.1.0"
+description = "Excel to Word 模板填充工具，支持分组生成、表格行复制和 Tkinter GUI。"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "自动生成", email = "noreply@example.com"}
+]
+license = {text = "MIT"}
+dependencies = [
+  "openpyxl>=3.1",
+  "python-docx>=0.8.12"
+]
+[project.urls]
+"Source" = "https://github.com/yourname/excel2word"
+[project.scripts]
+excel2word = "excel2word.cli:main"
+excel2word-gui = "excel2word.gui:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
